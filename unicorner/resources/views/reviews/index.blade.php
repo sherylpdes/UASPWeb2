@@ -11,7 +11,7 @@
         </div>
     </div>
 e
-    <form method="GET" action="{{ rout('reviews.index') }}" class="mb-3">
+    <form method="GET" action="{{ route('reviews.index') }}" class="mb-3">
         <input type="text" name="search" value="{{ $search }}" placeholder="Search by title or author" class="form-control">
     </form>
 
